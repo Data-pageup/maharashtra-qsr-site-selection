@@ -6,6 +6,7 @@ A data-driven approach to identifying optimal locations for Quick Service Restau
 
 This project combines pincode-level census data with Point of Interest (POI) competition data to identify high-potential areas for QSR expansion across Maharashtra. The analysis uses demographic indicators, population density, and competitive landscape mapping to score and rank potential sites.
 
+
 ##  Project Objectives
 
 - **Data Integration**: Merge multiple data layers (census, POI, competition data) at pincode granularity
@@ -232,4 +233,4 @@ This project is designed for internal business analysis and site selection purpo
 ---
 
 **Last Updated**: February 2026  
-## By Amirth Ganesh R
+## By Amirtha Ganesh R
