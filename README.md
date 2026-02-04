@@ -67,16 +67,6 @@ maharashtra-qsr-site-selection/
 
 ### Phase 1: Data Acquisition and Preparation
 
-```python
-# Load and filter Maharashtra data
-df_pincode = pd.read_csv('pincode_census.csv')
-df_poi = pd.read_csv('poi_competition.csv')
-
-# Filter for Maharashtra (pincodes starting with '4')
-df_pincode_mh = df_pincode[df_pincode['Pincode'].astype(str).str.startswith('4')]
-df_poi_mh = df_poi[df_poi['Pincode'].astype(str).str.startswith('4')]
-```
-
 **Key Steps**:
 1. Load raw datasets
 2. Filter Maharashtra records (pincode prefix '4')
@@ -155,13 +145,6 @@ df_master = df_pincode.groupby('Pincode').agg({
     'POI_Count': 'sum'
 }).reset_index()
 ```
-
-##  Expected Results
-
-- **Coverage**: ~15,000-20,000 unique Maharashtra pincodes
-- **Analysis Ready**: Merged dataset with population and competition metrics
-- **Actionable Insights**: Ranked list of expansion opportunities
-- **Visual Reports**: Maps and charts highlighting optimal locations
 
 ##  Data Quality Checks
 
