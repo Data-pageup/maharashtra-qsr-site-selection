@@ -188,13 +188,10 @@ For questions about the methodology or implementation:
 - Check data quality reports in the outputs folder
 - Consult domain experts for market-specific insights
 
-##  Version History
-
-- **v1.0**: Initial data acquisition and preparation pipeline
 
 ##  License
 
-This project is designed for internal business analysis and site selection purposes.
+This project is designed for internal business analysis and site selection purposes which i took as a problem statement.
 
 ---
 
