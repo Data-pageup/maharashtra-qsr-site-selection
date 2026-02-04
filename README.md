@@ -34,23 +34,6 @@ This project combines pincode-level census data with Point of Interest (POI) com
   - POI locations (restaurants, competitors, etc.)
   - Competition density
 
-##  Getting Started
-
-### Prerequisites
-
-```python
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-```
-
-### Installation
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
 
 ### Data Requirements
 
